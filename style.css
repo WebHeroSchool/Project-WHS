@@ -1,0 +1,39 @@
+body {
+  font-family: Helvetica;
+}
+p {
+  font-family: arial;
+}
+.title {
+  font-family: Roboto;
+}
+.wrapper {
+  margin: auto;
+  width: 80%;
+  border: dashed 1px yellow;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: dashed 1px orange;
+}
+.logo,
+.menu {
+  display: inline-block;
+  border: dashed 1px green;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 63%;
+  padding: 40px 0;
+}
+.menu__item {
+  padding: 0 13px;
+  border: dashed 1px grey;
+}
+.menu__item:last-child {
+  padding-right: 0;
+}
